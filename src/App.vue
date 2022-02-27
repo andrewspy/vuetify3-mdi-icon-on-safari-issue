@@ -5,8 +5,18 @@ import HelloWorld from './components/HelloWorld.vue'
 </script>
 
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Hello Vue 3 + TypeScript + Vite" />
+  <!-- <img alt="Vue logo" src="./assets/logo.png" />
+  <HelloWorld msg="Hello Vue 3 + TypeScript + Vite" /> -->
+
+  <v-icon>$menu</v-icon>
+  <v-btn>
+    <v-icon left>$menu</v-icon>
+    Menu
+  </v-btn>
+  <v-btn>
+    <v-icon left>$close</v-icon>
+    Close
+  </v-btn>
 </template>
 
 <style>
